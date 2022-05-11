@@ -9,7 +9,7 @@ steps:
   displayName: 'Maven app/pom.xml'
   inputs:
     mavenPomFile: 'app/pom.xml'
-    goals: 'clean package'
+    goals: 'clean, package'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     allowBrokenSymlinks: false
