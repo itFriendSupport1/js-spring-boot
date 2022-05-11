@@ -1,6 +1,6 @@
 pool:
   vmImage: 'ubuntu-16.04' # Azure Pipelines
-  demands: 'Azure Pipelines'
+  demands: maven
 
 steps:
 - task: Maven@3
